@@ -13,5 +13,8 @@ public class MoveBall : MonoBehaviour {
 		transform.position = Vector3.MoveTowards(transform.position, 
 			transform.position + transform.forward, Speed * Time.deltaTime / transform.localScale.x);
 		Speed = Speed * Friction;
+		if (Speed < 0.5) {
+			Speed = 0;
+		}
 	}
 }
