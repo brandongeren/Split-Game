@@ -7,6 +7,7 @@ TagManager:
   - arrow-button
   - orbtag
   - Food
+  - size
   layers:
   - Default
   - TransparentFX

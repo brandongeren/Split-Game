@@ -2,8 +2,10 @@
 
 private var h : float; 
 private var v : float; 
-private var horizontalSpeed : float = 0.5;
-private var verticalSpeed : float = 0.5; 
+private var horizontalSpeed : float = 0.5f;
+private var verticalSpeed : float = 0.5f; 
+
+public var forward : Vector3;
 
 function Update()
 {
@@ -18,6 +20,10 @@ function Update()
 
 				v = verticalSpeed * touch.deltaPosition.y;
 				transform.Rotate(0, 0, v, Space.World);
+
+				forward = transform.forward;
+
+
 			}
 
 		}
