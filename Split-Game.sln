@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{31560FD4-C8B9-6E03-516D-5D655D2661B7}") = "Split-Game", "Assembly-CSharp-firstpass.csproj", "{74F4590F-E8E6-576B-190A-FE0916D30BDF}"
+EndProject
+Project("{31560FD4-C8B9-6E03-516D-5D655D2661B7}") = "Split-Game", "Assembly-CSharp.csproj", "{3CBA168B-DA9B-B8C9-180D-16AA647171F5}"
+EndProject
+Project("{31560FD4-C8B9-6E03-516D-5D655D2661B7}") = "Split-Game", "Assembly-CSharp-Editor.csproj", "{6BC442DD-3A7B-2CF3-3AC0-D7EB5D515FF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74F4590F-E8E6-576B-190A-FE0916D30BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F4590F-E8E6-576B-190A-FE0916D30BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F4590F-E8E6-576B-190A-FE0916D30BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F4590F-E8E6-576B-190A-FE0916D30BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBA168B-DA9B-B8C9-180D-16AA647171F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBA168B-DA9B-B8C9-180D-16AA647171F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBA168B-DA9B-B8C9-180D-16AA647171F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBA168B-DA9B-B8C9-180D-16AA647171F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC442DD-3A7B-2CF3-3AC0-D7EB5D515FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC442DD-3A7B-2CF3-3AC0-D7EB5D515FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC442DD-3A7B-2CF3-3AC0-D7EB5D515FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC442DD-3A7B-2CF3-3AC0-D7EB5D515FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
