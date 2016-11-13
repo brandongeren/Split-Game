@@ -5,9 +5,9 @@ using UnityEngine;
 public class MoveBall : MonoBehaviour {
 
 
-	public float Friction = 0.8;
-	public float Speed = 20;
-	public float minSpeed = 0.5;
+	public float Friction = 0.8f;
+	public float Speed = 20f;
+	public float minSpeed = 0.5f;
 
 
 	// Update is called once per frame
