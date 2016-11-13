@@ -20,8 +20,8 @@ function Update()
 				transform.Rotate(0, 0, v, Space.World);
 			}
 
-			GameObject orb = GameObject.FindGameObjectWithTab("orbtag");
-			orb.transform.Rotate( 0, 0, -h, Space.World);
-			orb.transform.Rotate(0, 0, v, Space.World);
+//			GameObject orb = GameObject.FindGameObjectWithTab("orbtag");
+//			orb.transform.Rotate( 0, 0, -h, Space.World);
+//			orb.transform.Rotate(0, 0, v, Space.World);
 			}
 		}

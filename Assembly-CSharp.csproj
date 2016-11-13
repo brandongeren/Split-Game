@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Ball.cs" />
+     <Compile Include="Assets\Scripts\GoalManager.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\exampleTouch.cs" />
      <Compile Include="Assets\movement.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
