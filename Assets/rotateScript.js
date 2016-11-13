@@ -18,10 +18,10 @@ function Update()
 
 				v = verticalSpeed * touch.deltaPosition.y;
 				transform.Rotate(0, 0, v, Space.World);
-				}
+			}
 
-				GameObject orb = GameObject.FindGameObjectWithTag("orbtag");
-				orb.transform.Rotate( 0, 0, -h, Space.World);
-				orb.transform.Rotate(0, 0, v, Space.World);
+			GameObject orb = GameObject.FindGameObjectWithTab("orbtag");
+			orb.transform.Rotate( 0, 0, -h, Space.World);
+			orb.transform.Rotate(0, 0, v, Space.World);
 			}
 		}
