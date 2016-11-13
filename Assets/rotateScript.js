@@ -2,8 +2,8 @@
 
 private var h : float; 
 private var v : float; 
-private var horizontalSpeed : float = 2.0;
-private var verticalSpeed : float = 2.0; 
+private var horizontalSpeed : float = 0.5;
+private var verticalSpeed : float = 0.5; 
 
 function Update()
 {
