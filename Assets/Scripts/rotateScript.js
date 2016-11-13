@@ -20,8 +20,13 @@ function Update()
 				transform.Rotate(0, 0, v, Space.World);
 			}
 
+<<<<<<< HEAD:Assets/Scripts/rotateScript.js
 //			GameObject orb = GameObject.FindGameObjectWithTab("orbtag");
 //			orb.transform.Rotate( 0, 0, -h, Space.World);
 //			orb.transform.Rotate(0, 0, v, Space.World);
 			}
 		}
+=======
+		}
+}
+>>>>>>> brandongeren/master:Assets/rotateScript.js
